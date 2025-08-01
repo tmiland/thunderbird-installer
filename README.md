@@ -1,6 +1,8 @@
 # thunderbird-installer
  Install any version of thunderbird from Mozilla.org
 
+Also check out [firefox-installer](https://github.com/tmiland/firefox-installer)
+
  ## Installation
 
  ```bash
