@@ -78,7 +78,7 @@ then
   UPDATE="apt-get -o Dpkg::Progress-Fancy="1" update -qq"
   INSTALL="apt-get -o Dpkg::Progress-Fancy="1" install -qq"
   UNINSTALL="apt-get -o Dpkg::Progress-Fancy="1" remove -qq"
-  INSTALL_PKGS=("menu" "debianutils" "fontconfig" "libotr5" "psmisc" "x11-utils" "kdialog" "zenity" "libasound2" "libatk1.0-0" "libc6" "libcairo-gobject2" "libcairo2" "libdbus-1-3" "libevent-2.1-7" "libffi8" "libfontconfig1" "libfreetype6" "libgcc-s1" "libgdk-pixbuf2.0-0" "libgdk-pixbuf-2.0-0" "libglib2.0-0" "libgtk-3-0" "libpango-1.0-0" "libstdc++6" "libvpx7" "libx11-6" "libx11-xcb1" "libxcb-shm0" "libxcb1" "libxext6" "libxrandr2" "zlib1g")
+  INSTALL_PKGS=("menu" "debianutils")
 else
   echo -e "Error: Sorry, your OS is not supported."
   exit 1;
