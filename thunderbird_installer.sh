@@ -11,13 +11,13 @@
 ####                   Maintained by @tmiland                     ####
 ######################################################################
 
-VERSION='1.0.0' # Must stay on line 14 for updater to fetch the numbers
+VERSION='1.0.1'
 
 #------------------------------------------------------------------------------#
 #
 # MIT License
 #
-# Copyright (c) 2025
+# Copyright (c) 2025 Tommy Miland
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
